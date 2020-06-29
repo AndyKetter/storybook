@@ -151,12 +151,6 @@ export const webpackReact: Parameters = {
   generator: fromDeps('react', 'react-dom', 'webpack'),
 };
 
-export const yarn2Cra: Parameters = {
-  name: 'yarn-2-cra',
-  version: 'latest',
-  generator: `yarn dlx create-react-app@{{version}} {{name}}-v{{version}}`,
-};
-
 export const reactInYarnWorkspace: Parameters = {
   name: 'reactInYarnWorkspace',
   version: 'latest',
